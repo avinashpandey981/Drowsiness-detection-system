@@ -1,0 +1,36 @@
+body,html {
+    /* background-image: url('https://i.imgur.com/xhiRfL6.jpg'); */
+    background-image: url("/static/441707.jpg");
+    background-size: cover;
+    height: 100%;
+}
+h1{
+    color:whitesmoke;
+}
+
+#profile-img {
+    height:180px;
+}
+.h-80 {
+    height: 80% !important;
+}
+
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style:none;
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:2px;
+}
